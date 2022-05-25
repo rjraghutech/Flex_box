@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* body{
+            max-width: 1080px;
+        } */
+        header{
+            /* max-width: 1080px; */
+        }
+        .containerhead{
+            /* max-width: 1080px; */
+            /* margin: 0 auto; */
+            display: flex;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+           
+        }
+        .brand{
+            
+           border: 2px solid black;
+        }
+        .nav{
+            border: 2px solid black;
+            /* justify-items: flex-end; */
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <header class="clearfix">
+       <div class="containerhead">
+            <div class="brand">
+                <a href="#">
+                    <h1 class="brandhead">FLEXBOX</h1>
+                </a>
+            </div>   
+            <div class="nav">
+                <nav class="nav1">
+                    <a href="#">HOME</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">GALLERY</a>
+                </nav>
+            </div>
+       </div> 
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
